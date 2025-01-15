@@ -35,4 +35,5 @@ class ShowPage extends Component
         return view('livewire.show-page')
             ->layout('layouts.guest');
     }
+
 }

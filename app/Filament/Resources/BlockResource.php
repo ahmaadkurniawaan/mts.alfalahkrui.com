@@ -94,7 +94,7 @@ class BlockResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
-                // Tables\Actions\DeleteAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -115,6 +115,6 @@ class BlockResource extends Resource
 
     public static function canCreate(): bool
     {
-        return false;
+        return true;
     }
 }

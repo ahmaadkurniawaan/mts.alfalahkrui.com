@@ -8,7 +8,7 @@
                     class="h-5 w-5 text-warning-500"
                 />
                 <div>
-                    <h2 class="text-xl font-bold">Dewakoding Page Builder</h2>
+                    <h2 class="text-xl font-bold">MTs Al-Falah Krui</h2>
                 </div>
             </div>
             
@@ -16,7 +16,7 @@
 
 
         {{-- Informasi Penting --}}
-        <div class="mt-6 rounded-lg bg-gray-100 p-4">
+        {{-- <div class="mt-6 rounded-lg bg-gray-100 p-4">
             <h3 class="mb-2 flex items-center gap-2 font-medium">
                 <x-filament::icon 
                     icon="heroicon-o-information-circle"
@@ -29,6 +29,6 @@
                 
                 
             </ul>
-        </div>
+        </div> --}}
     </x-filament::section>
 </x-filament::widget>
