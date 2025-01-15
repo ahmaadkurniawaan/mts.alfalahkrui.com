@@ -1,0 +1,27 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.min2.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/page-builder/index.css": {
+    "file": "assets/index2.css",
+    "src": "resources/js/page-builder/index.css",
+    "isEntry": true
+  },
+  "resources/js/page-builder/index.js": {
+    "file": "assets/index.min.js",
+    "name": "index",
+    "src": "resources/js/page-builder/index.js",
+    "isEntry": true,
+    "css": [
+      "assets/index.css"
+    ]
+  }
+}

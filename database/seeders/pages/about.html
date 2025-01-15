@@ -1,0 +1,37 @@
+<div data-gjs-highlightable="true" id="iuhh" data-gjs-type="navbar" draggable="true" class=""><div class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img data-gjs-type="image" src="{{logo}}" class="h-8" alt="Flowbite Logo">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{{title}}</span>
+        </a>
+        <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+            <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                {{#navbar}}
+                <li>
+                    <a href="{{url}}" target="{{#open_in_new_tab}}_blank{{/open_in_new_tab}}" class="block py-2 px-3 md:p-0 text-white 
+                        {{#is_active}}
+                        bg-blue-700 md:text-blue-700 md:dark:text-blue-500
+                        {{/is_active}}
+                        md:dark:bg-transparent">{{name}}</a>
+                </li>
+                {{/navbar}}
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<section class="bg-white dark:bg-gray-900" data-gjs-tagName="section"><div id="about-section" draggable="true" class="gap-16 items-center py-12 px-6 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-12 min-h-screen bg-gray-50 dark:bg-gray-900" data-gjs-type="default"><!-- Left Content --><div id="about-text" draggable="true" class="font-light text-gray-700 sm:text-lg dark:text-gray-300" data-gjs-type="default"><h2 id="about-title" draggable="true" class="mb-6 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white" data-gjs-tagName="h2" data-gjs-type="text">
+      About Us
+    </h2><p id="about-description-1" draggable="true" class="mb-6" data-gjs-tagName="p" data-gjs-type="text">
+      At <strong data-gjs-tagName="strong" data-gjs-type="text">YourSoftwareHouse</strong>, we specialize in creating cutting-edge software solutions that transform businesses. With a dedicated team of strategists, designers, and developers, we bring ideas to life, ensuring seamless integration with your goals and vision.
+    </p><p id="about-description-2" draggable="true" class="mb-6" data-gjs-tagName="p" data-gjs-type="text">
+      Our expertise spans across industries, delivering tailor-made solutions that enhance productivity, optimize processes, and accelerate growth. Whether you're a startup or an established enterprise, we’re here to provide innovative, scalable, and reliable technology that fits your needs.
+    </p><p id="about-description-3" draggable="true" data-gjs-tagName="p" data-gjs-type="text">
+      Collaboration and creativity drive everything we do. Let’s build the future together—one project at a time.
+    </p></div><!-- Right Content: Images --><div id="about-images" draggable="true" class="grid grid-cols-2 gap-4 mt-8" data-gjs-type="default"><img id="about-img-1" draggable="true" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="Creative Workspace 1" class="w-full rounded-lg shadow-lg" data-gjs-type="image" data-gjs-resizable="{&quot;ratioDefault&quot;:1}"/><img id="about-img-2" draggable="true" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="Creative Workspace 2" class="mt-4 w-full lg:mt-10 rounded-lg shadow-lg" data-gjs-type="image" data-gjs-resizable="{&quot;ratioDefault&quot;:1}"/></div></div></section>
